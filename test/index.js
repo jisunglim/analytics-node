@@ -31,8 +31,8 @@ describe('Analytics', function(){
     assert.equal('function', typeof Analytics);
   });
 
-  it('should require a write key', function(){
-    assert.throws(Analytics, error("You must pass your Segment project's write key."));
+  it('should require an appId', function(){
+    assert.throws(Analytics, error("You must pass your Astronomer project's appId."));
   });
 
   it('should not require the new keyword', function(){
@@ -45,8 +45,8 @@ describe('Analytics', function(){
 
   it('should set default options', function(){
     var a = Analytics('key');
-    assert.equal(a.writeKey, 'key');
-    assert.equal(a.host, 'https://api.segment.io');
+    assert.equal(a.appId, 'key');
+    assert.equal(a.host, 'https://api.astronomer.io');
     assert.equal(a.flushAt, 20);
     assert.equal(a.flushAfter, 10000);
   });
