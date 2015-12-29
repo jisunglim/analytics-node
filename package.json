@@ -1,5 +1,5 @@
 {
-  "name": "analytics-node",
+  "name": "analytics-node-astronomer",
   "repository": "git://github.com/segmentio/analytics-node",
   "version": "2.0.1+ASTRONOMER",
   "description": "The hassle-free way to integrate analytics into any node application.",
