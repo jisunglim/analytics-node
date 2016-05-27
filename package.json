@@ -1,7 +1,7 @@
 {
   "name": "astronomer",
   "repository": "git://github.com/astronomerio/analytics-node",
-  "version": "2.0.1+ASTRONOMER",
+  "version": "2.0.3",
   "description": "The hassle-free way to integrate analytics into any node application.",
   "keywords": [
     "analytics",
