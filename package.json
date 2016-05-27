@@ -1,5 +1,5 @@
 {
-  "name": "analytics-node",
+  "name": "astronomer",
   "repository": "git://github.com/astronomerio/analytics-node",
   "version": "2.0.1+ASTRONOMER",
   "description": "The hassle-free way to integrate analytics into any node application.",
@@ -8,7 +8,9 @@
     "segment.io",
     "segmentio",
     "client",
-    "driver"
+    "driver",
+    "astronomer",
+    "astronomer.io"
   ],
   "main": "lib/index.js",
   "browserify": {
