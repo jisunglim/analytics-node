@@ -3,7 +3,7 @@
 
 [![Build Status](https://api.travis-ci.org/segmentio/analytics-node.svg?branch=master)](https://travis-ci.org/segmentio/analytics-node)
 
-A node.js client by, [Segment](https://segment.com), adapted by [Astronomer.io](http://www.astronomer.io/).
+A node.js client by [Segment](https://segment.com), adapted by [Astronomer.io](http://www.astronomer.io/).
 
 ## Installation
 
