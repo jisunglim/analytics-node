@@ -1,13 +1,13 @@
 {
   "repository": "git://github.com/astronomerio/analytics-node",
-  "name": "analytics-node",
+  "name": "astronomer",
   "version": "3.3.0-beta.1",
   "description": "The hassle-free way to integrate analytics into any Node.js application",
   "license": "MIT",
   "author": {
-    "name": "Segment",
-    "email": "tools+npm@segment.com",
-    "url": "segment.com"
+    "name": "Astronomer",
+    "email": "humans@astronomer.io",
+    "url": "astronomer.io"
   },
   "bin": {
     "analytics": "cli.js"
