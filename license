@@ -1,5 +1,6 @@
+MIT License
 
-#analytics-node
+Copyright © 2017 Segment Inc. <friends@segment.com>
 
 [![Build Status](https://api.travis-ci.org/segmentio/analytics-node.svg?branch=master)](https://travis-ci.org/segmentio/analytics-node)
 
