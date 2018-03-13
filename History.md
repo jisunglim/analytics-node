@@ -1,4 +1,77 @@
 
+v3.0.0 / 2017-07-27
+===================
+
+  * Flush on first message (#113)
+  * Rename flushAfter to flushInterval (#112)
+  * remove caching of dependencies on Circle CI
+  * improve readme
+  * rename README to readme
+  * add license
+  * disable npm package locks
+  * improve package.json
+  * moves files into root
+  * remove Makefile in favor of npm scripts
+  * remove yarn.lock
+  * remove History.md in favor of gh releases
+  * add editorconfig
+  * Convert to ES6 (#110)
+  * Remove continuous deployment (#109)
+  * Switch from Mocha to AVA (#108)
+  * Skip data in flush callbacks (#105)
+  * Reset timer on flush (#103)
+  * Remove superagent-retry module (#107)
+  * Remove browserify build (#104)
+  * Update README.md
+
+2.4.1 / 2017-05-05
+==================
+
+  * Preventing webpack to bundle all lodash lib (#94)
+  * README: fix header
+  * README: fix badge
+  * package: upgrade dependencies (#89)
+  * standard (#88)
+  * yarn (#85)
+  * analytics-node.js@2.4.0 [ci skip]
+
+2.4.0 / 2017-03-13
+==================
+
+  * test: add `_metadata` to "screen" assertion (#87)
+  * replace Travis with CircleCI (#86)
+  * add support for screen events (#82)
+  * use correct optional syntax for JSDOC (#83)
+
+2.3.0 / 2017-03-13
+==================
+
+  * Add node version to messages via _metadata (#84)
+  * remove trailing slash on `.host` (#81)
+
+2.2.0 / 2017-02-06
+==================
+
+  * Replace validation with `@segment/loosely-validate-event`
+  * add releasing notes
+
+2.1.1 / 2017-01-31
+==================
+
+  * Merge pull request #74 from alexstrat/master
+  * Update dependencies
+
+2.1.0 / 2016-03-31
+==================
+
+  * adding a cli
+
+2.0.2 / 2016-03-03
+==================
+
+  * updating travis.yml
+  * increase messageId entropy, and include one id per message
+
 2.0.1 / 2015-12-11
 ==================
 
