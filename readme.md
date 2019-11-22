@@ -1,24 +1,25 @@
-# astronomer [![CircleCI](https://circleci.com/gh/segmentio/analytics-node.svg?style=svg&circle-token=68654e8cd0fcd16b1f3ae9943a1d8e20e36ae6c5)](https://circleci.com/gh/segmentio/analytics-node)
+# metarouter
 
-A Node.js client for [Astronomer](https://astronomer.io) — The hassle-free way to integrate analytics into any application.
+A Node.js client for [Metarouter](https://metarouter.io) — The hassle-free way to integrate analytics into any application.
 
-Based off of [Segment's](https://segment.com) `analytics-node`
+
+Based off of [Astronomer](https://astronomer.io) and [Segment's](https://segment.com) `analytics-node`
 
 
 
 ## Installation
 
 ```bash
-$ npm install astronomer
+$ npm install metarouter
 ```
 
 
 ## Usage
 
 ```js
-const Analytics = require('astronomer');
+import Analytics from 'metarouter';
 
-const client = new Analytics('write key');
+const client = new Analytics('<METAROUTER_KEY>');
 
 client.track({
   event: 'event name',
@@ -29,7 +30,7 @@ client.track({
 
 ## Documentation
 
-Documentation is available at [https://docs.astronomer.io/v2/clickstream/sources/nodejs.html](https://docs.astronomer.io/v2/clickstream/sources/nodejs.html).
+Documentation is available at [https://docs.metarouter.io/v2/clickstream/sources/nodejs.html](https://docs.metarouter.io/v2/clickstream/sources/nodejs.html).
 
 
 ## License

@@ -1,7 +1,7 @@
 {
   "name": "metarouter",
   "repository": "git://github.com/jisunglim/analytics-node",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "The hassle-free way to integrate analytics into any Node.js application",
   "license": "MIT",
   "engines": {
