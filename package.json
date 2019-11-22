@@ -1,7 +1,7 @@
 {
-  "name": "astronomer",
-  "repository": "git://github.com/astronomerio/analytics-node",
-  "version": "3.2.0",
+  "name": "metarouter",
+  "repository": "git://github.com/jisunglim/analytics-node",
+  "version": "1.0.0",
   "description": "The hassle-free way to integrate analytics into any Node.js application",
   "license": "MIT",
   "engines": {
