@@ -88,7 +88,7 @@ test('default options', t => {
   const client = new Analytics('key')
 
   t.is(client.writeKey, 'key')
-  t.is(client.host, 'https://api.astronomer.io')
+  t.is(client.host, 'https://e.metarouter.io')
   t.is(client.flushAt, 20)
   t.is(client.flushInterval, 10000)
 })

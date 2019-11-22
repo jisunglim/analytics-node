@@ -22,7 +22,7 @@ class Analytics {
    * @param {Object} [options] (optional)
    *   @property {Number} flushAt (default: 20)
    *   @property {Number} flushInterval (default: 10000)
-   *   @property {String} host (default: 'https://api.astronomer.io')
+   *   @property {String} host (default: 'https://e.metarouter.io')
    */
 
   constructor (writeKey, options) {
@@ -32,7 +32,7 @@ class Analytics {
 
     this.queue = []
     this.writeKey = writeKey
-    this.host = removeSlash(options.host || 'https://api.astronomer.io')
+    this.host = removeSlash(options.host || 'https://e.metarouter.io')
     this.timeout = options.timeout || false
     this.flushAt = Math.max(options.flushAt, 1) || 20
     this.flushInterval = options.flushInterval || 10000
